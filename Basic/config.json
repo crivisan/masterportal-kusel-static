@@ -1,0 +1,317 @@
+{
+  "portalConfig": {
+    "map": {
+      "controls": {
+        "rotation": {
+          "showResetRotationAlways": true,
+          "showResetRotation": true,
+          "rotationIcons": true,
+          "moveDistance": 2500,
+          "compass2d": true
+        },
+        "zoom": true,
+        "tiltView": true,
+        "startModule": {
+          "secondaryMenu": [
+            {
+              "type": "addWMS"
+            }
+          ]
+        },
+        "totalView": true,
+        "button3d": true,
+        "expandable": {
+          "backForward": true,
+          "orientation": {
+            "zoomMode": "once",
+            "poiDistances": [
+              500,
+              1000,
+              2000
+            ]
+          },
+          "freeze": true,
+          "fullScreen": true
+        }
+      },
+      "mapView": {
+        "backgroundImage": "./resources/img/backgroundCanvas.jpeg",
+        "startCenter": [
+          384792,
+          5488452
+        ],
+        "extent": [
+          382173.0,
+          5486871.0,
+          387410.4,
+          5490033.0
+        ],
+        "startZoomLevel": 3
+      }
+    },
+    "portalFooter": {
+      "urls": [
+        {
+          "bezeichnung": "common:modules.portalFooter.designation",
+          "url": "https://geoinfo.hamburg.de/",
+          "alias": "Landesbetrieb Geoinformation und Vermessung",
+          "alias_mobil": "LGV"
+        }
+      ]
+    },
+    "tree": {
+      "highlightedFeatures": {
+        "active": true
+      }
+    },
+    "mainMenu": {
+      "expanded": true,
+      "title": {
+        "text": "Landkreis Kusel Geoportal",
+        "logo": "./resources/img/Landkreis-Kusel-Logo-1.png",
+        "link": "https://www.landkreis-kusel.de/",
+        "toolTip": "Masterportal"
+      },
+      "searchBar": {
+        "searchInterfaces": [
+          {
+            "type": "komootPhoton",
+            "minChars": 3,
+            "serviceId": "11",
+            "limit": 10,
+            "lang": "de",
+            "lat": 53.6,
+            "lon": 10.0,
+            "bbox": "9.6,53.3,10.4,53.8"
+          },
+          {
+            "type": "visibleVector",
+            "resultEvents": {
+              "onClick": [
+                "openGetFeatureInfo",
+                "setMarker",
+                "zoomToResult"
+              ],
+              "onHover": [
+                "setMarker"
+              ]
+            }
+          },
+          {
+            "type": "topicTree",
+            "hitTemplate": "layer"
+          }
+        ]
+      },
+      "sections": [
+        [
+          {
+            "type": "fileImport"
+          },
+          {
+            "type": "openConfig"
+          },
+          {
+            "type": "contact",
+            "serviceId": "80001",
+            "includeSystemInfo": true,
+            "from": [
+              {
+                "email": "lgvgeoportal-hilfe@gv.hamburg.de",
+                "name": "LGVGeoportalHilfe"
+              }
+            ],
+            "to": [
+              {
+                "email": "lgvgeoportal-hilfe@gv.hamburg.de",
+                "name": "LGVGeoportalHilfe"
+              }
+            ]
+          },
+          {
+            "type": "language"
+          }
+        ]
+      ]
+    },
+    "secondaryMenu": {
+      "expanded": false,
+      "sections": [
+        [
+          {
+            "type": "wfst",
+            "name": "WFS-T Tool",
+            "layerIds": [
+              "lgvline",
+              "lgvpoint",
+              "lgvpolygon"
+            ],
+            "toggleLayer": false,
+            "lineButton": [
+              {
+                "layerId": "lgvline",
+                "available": true
+              }
+            ],
+            "pointButton": [
+              {
+                "layerId": "lgvpoint",
+                "available": true
+              }
+            ],
+            "polygonButton": [
+              {
+                "layerId": "lgvpolygon",
+                "available": true
+              }
+            ],
+            "update": "Bearbeiten!",
+            "delete": true
+          },
+          {
+            "type": "legend"
+          },
+          {
+            "type": "scaleSwitcher"
+          },
+          {
+            "type": "shareView"
+          },
+          {
+            "type": "measure"
+          },
+          {
+            "type": "coordToolkit",
+            "heightLayerId": "19173",
+            "heightElementName": "value_0",
+            "heightValueWater": "-20",
+            "heightValueBuilding": "200",
+            "zoomLevel": 5
+          },
+          {
+            "type": "bufferAnalysis"
+          },
+          {
+            "type": "layerSlider",
+            "layerIds": [
+              {
+                "title": "common:modules.layerSlider.serviceOne",
+                "layerId": "19173"
+              },
+              {
+                "title": "common:modules.layerSlider.serviceTwo",
+                "layerId": "2426"
+              },
+              {
+                "title": "common:modules.layerSlider.serviceThree",
+                "layerId": "8712.2"
+              },
+              {
+                "title": "common:modules.layerSlider.serviceFour",
+                "layerId": "1711"
+              }
+            ]
+          },
+          {
+            "type": "layerClusterToggler",
+            "layerIdList": [
+              "8712.1",
+              "8712.2",
+              "8712.3",
+              "8712.4"
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  "layerConfig": {
+    "baselayer": {
+      "elements": [
+        {
+          "id": "topplus_wmts",
+          "name": "TopPlusOpen (WMTS)",
+          "typ": "WMTS",
+          "visibility": true,
+          "showInLayerTree": true
+        }
+      ]
+    },
+    "subjectlayer": {
+      "elements": [
+        {
+          "id": "1",
+          "name": "3D-Modell",
+          "visiblity": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "3",
+          "name": "3D-Terrain-Merged",
+          "visibility": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "kusel_rivers",
+          "name": "Kusel Rivers",
+          "visibility": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "kusel_boundary",
+          "name": "Kusel Boundary",
+          "visibility": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "rp_oeffentlich-rechtliche_Festlegungen",
+          "name": "Öffentlich Rechtliche Festlegungen",
+          "visibility": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "rp_Nutzung",
+          "name": "Nutzung",
+          "visibility": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "rp_Hintergrund",
+          "name": "Hintergrund",
+          "visibility": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "rp_GebaeudeBauwerke",
+          "name": "GebaüdeBauwerke",
+          "visibility": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "rp_Flurstueck",
+          "name": "Flurstueck",
+          "visibility": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "geol_bodenart",
+          "name": "Bodenart",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "geol_ackerzahl",
+          "name": "Ackerzahl",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "geol_bodenfunktion",
+          "name": "Bodenfunktionsbewertung",
+          "visibility": false,
+          "showInLayerTree": true
+        }
+      ]
+    }
+  }
+}

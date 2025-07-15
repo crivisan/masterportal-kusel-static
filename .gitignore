@@ -1,0 +1,8 @@
+# Ignore the tiles directory
+tiles/
+
+# Optionally ignore other common stuff:
+node_modules/
+dist/
+.env
+*.log

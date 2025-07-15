@@ -1,0 +1,187 @@
+[
+  {
+    "id": "1",
+    "name": "3d buildings",
+    "url": "../tiles/3d_model",
+    "typ": "TileSet3D",
+    "gfiAttributes": "showAll",
+    "layerAttribution": "nicht vorhanden",
+    "legend": false,
+    "transparent": true,
+    "cesium3DTilesetOptions": {
+      "maximumScreenSpaceError": 6
+    },
+    "datasets": [
+      {
+        "md_id": "67611D79-37ED-40DD-B7A2-A54080DB7563",
+        "rs_id": "https://registry.gdi-de.org/id/de.hh/618950ed-5b69-4ef8-afb1-c55052a84d3f",
+        "md_name": "Freizeitrouten und Radfernwege Hamburg",
+        "bbox": "461468.96892897453,5916367.229806512,587010.9095989474,5980347.755797674",
+        "kategorie_opendata": [
+          "Verkehr"
+        ],
+        "kategorie_inspire": [
+          "Verkehrsnetze"
+        ],
+        "kategorie_organisation": "Behörde für Umwelt, Klima, Energie und Agrarwirtschaft (BUKEA)"
+      }
+    ],
+    "urlIsVisible": true
+  },
+  {
+    "id": "3",
+    "name": "3d Terrain Merged",
+    "legend": false,
+    "transparent": true,
+    "typ": "Terrain3D",
+    "url": "../tiles/3d_terrain_merged"
+  },
+  {
+    "id": "topplus_wmts",
+    "name": "TopPlusOpen",
+    "capabilitiesUrl": "https://sgx.geodatenzentrum.de/wmts_topplus_open/1.0.0/WMTSCapabilities.xml",
+    "optionsFromCapabilities": true,
+    "urls": [
+      "https://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web/{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"
+    ],
+    "typ": "WMTS",
+    "layers": "web",
+    "format": "image/png",
+    "version": "1.0.0",
+    "origin": [
+      -3803165.98427,
+      8805908.08285
+    ],
+    "isBaseLayer": true,
+    "style": "default",
+    "transparent": false,
+    "tileSize": "256",
+    "minScale": "0",
+    "maxScale": "9999999999",
+    "tileMatrixSet": "WEBMERCATOR",
+    "coordinateSystem": "EPSG:3857",
+    "legend": [
+      "https://sg.geodatenzentrum.de/wms_topplus_open?styles=&layer=web&service=WMS&format=image/png&sld_version=1.1.0&request=GetLegendGraphic&version=1.1.1"
+    ],
+    "requestEncoding": "REST",
+    "resLength": "13",
+    "layerAttribution": "Quellenvermerk: © Bundesamt für Kartographie und Geodäsie",
+    "datasets": [
+      {
+        "md_id": "A1C4E929-3EC9-4758-9677-DB4970D226AB",
+        "csw_url": " https://gdk.gdi-de.org/gdi-de/srv/ger/csw?",
+        "show_doc_url": "https://gdk.gdi-de.org/gdi-de/srv/ger/catalog.search#/metadata/"
+      }
+    ]
+  },
+  {
+    "id": "kusel_boundary",
+    "name": "Kusel Boundary",
+    "typ": "WMS",
+    "url": "http://18.185.132.72:8080/geoserver/Kusel/wms",
+    "layers": "Kusel:Landkreis_Kusel — de_vg250__v_vg250_krs",
+    "format": "image/png",
+    "version": "1.3.0",
+    "transparent": true,
+    "isBaseLayer": false
+  },
+  {
+    "id": "kusel_rivers",
+    "name": "Kusel Rivers",
+    "typ": "WMS",
+    "url": "http://18.185.132.72:8080/geoserver/Kusel/wms",
+    "layers": "Kusel:Landkreis_Kusel_Fluesse — landkreis_kusel_fluesse",
+    "format": "image/png",
+    "version": "1.3.0",
+    "transparent": true,
+    "isBaseLayer": false
+  },
+  {
+    "id": "rp_oeffentlich-rechtliche_Festlegungen",
+    "name": "Öffentlich Rechtliche Festlegungen",
+    "typ": "WMS",
+    "url": "https://geo5.service24.rlp.de/wms/liegenschaften_rp.fcgi?",
+    "layers": "oeffentlich-rechtliche_Festlegungen",
+    "format": "image/png",
+    "version": "1.1.1",
+    "transparent": true,
+    "isBaseLayer": false
+  },
+  {
+    "id": "rp_Nutzung",
+    "name": "Nutzung",
+    "typ": "WMS",
+    "url": "https://geo5.service24.rlp.de/wms/liegenschaften_rp.fcgi?",
+    "layers": "Nutzung",
+    "format": "image/png",
+    "version": "1.1.1",
+    "transparent": true,
+    "isBaseLayer": false
+  },
+  {
+    "id": "rp_Hintergrund",
+    "name": "Hintergrund",
+    "typ": "WMS",
+    "url": "https://geo5.service24.rlp.de/wms/liegenschaften_rp.fcgi?",
+    "layers": "Hintergrund",
+    "format": "image/png",
+    "version": "1.1.1",
+    "transparent": true,
+    "isBaseLayer": false
+  },
+  {
+    "id": "rp_GebaeudeBauwerke",
+    "name": "GebaüdeBauwerke",
+    "typ": "WMS",
+    "url": "https://geo5.service24.rlp.de/wms/liegenschaften_rp.fcgi?",
+    "layers": "GebaeudeBauwerke",
+    "format": "image/png",
+    "version": "1.1.1",
+    "transparent": true,
+    "isBaseLayer": false
+  },
+  {
+    "id": "rp_Flurstueck",
+    "name": "Flurstueck",
+    "typ": "WMS",
+    "url": "https://geo5.service24.rlp.de/wms/liegenschaften_rp.fcgi?",
+    "layers": "Flurstueck",
+    "format": "image/png",
+    "version": "1.1.1",
+    "transparent": true,
+    "isBaseLayer": false
+  },
+  {
+    "id": "geol_bodenart",
+    "name": "Bodenart",
+    "typ": "WMS",
+    "url": "https://mapserver.lgb-rlp.de/cgi-bin/mc_bfd5?",
+    "layers": "Bodenart",
+    "format": "image/png",
+    "version": "1.3.0",
+    "transparent": true,
+    "isBaseLayer": false
+  },
+  {
+    "id": "geol_ackerzahl",
+    "name": "Ackerzahl",
+    "typ": "WMS",
+    "url": "https://mapserver.lgb-rlp.de/cgi-bin/mc_bfd5?",
+    "layers": "Ackerzahl",
+    "format": "image/png",
+    "version": "1.3.0",
+    "transparent": true,
+    "isBaseLayer": false
+  },
+  {
+    "id": "geol_bodenfunktion",
+    "name": "Bodenfunktionsbewertung",
+    "typ": "WMS",
+    "url": "https://mapserver.lgb-rlp.de/cgi-bin/mc_bfd5?",
+    "layers": "Bodenfunktionsbewertung",
+    "format": "image/png",
+    "version": "1.3.0",
+    "transparent": true,
+    "isBaseLayer": false
+  }
+]
