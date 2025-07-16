@@ -316,6 +316,12 @@
           "name": "Kusel Boundary",
           "visibility": true,
           "showInLayerTree": true
+        },
+        {
+          "id": "naturschutzgebiete",
+          "name": "Naturschutzgebiete RLP",
+          "visibility": true,
+          "showInLayerTree": true
         }
       ]
     }
