@@ -37,16 +37,16 @@
       "mapView": {
         "backgroundImage": "./resources/img/backgroundCanvas.jpeg",
         "startCenter": [
-          384792,
-          5488452
+          382500,
+          5480000
         ],
         "extent": [
-          382173.0,
-          5486871.0,
-          387410.4,
-          5490033.0
+          365000,
+          5460000,
+          400000,
+          5500000
         ],
-        "startZoomLevel": 3
+        "startZoomLevel": 2
       }
     },
     "portalFooter": {
@@ -232,7 +232,7 @@
           "id": "topplus_wmts",
           "name": "TopPlusOpen (WMTS)",
           "typ": "WMTS",
-          "visibility": true,
+          "visibility": false,
           "showInLayerTree": true
         }
       ]
@@ -260,7 +260,7 @@
         {
           "id": "rp_Hintergrund",
           "name": "Hintergrund",
-          "visibility": true,
+          "visibility": false,
           "showInLayerTree": true
         },
         {
