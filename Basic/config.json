@@ -252,26 +252,8 @@
           "showInLayerTree": true
         },
         {
-          "id": "kusel_rivers",
-          "name": "Kusel Rivers",
-          "visibility": true,
-          "showInLayerTree": true
-        },
-        {
-          "id": "kusel_boundary",
-          "name": "Kusel Boundary",
-          "visibility": true,
-          "showInLayerTree": true
-        },
-        {
           "id": "rp_oeffentlich-rechtliche_Festlegungen",
           "name": "Öffentlich Rechtliche Festlegungen",
-          "visibility": true,
-          "showInLayerTree": true
-        },
-        {
-          "id": "rp_Nutzung",
-          "name": "Nutzung",
           "visibility": true,
           "showInLayerTree": true
         },
@@ -282,8 +264,14 @@
           "showInLayerTree": true
         },
         {
-          "id": "rp_GebaeudeBauwerke",
-          "name": "GebaüdeBauwerke",
+          "id": "rp_Nutzung",
+          "name": "Nutzung",
+          "visibility": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "rp_Gebaeude",
+          "name": "Gebäude",
           "visibility": true,
           "showInLayerTree": true
         },
@@ -309,6 +297,18 @@
           "id": "geol_bodenfunktion",
           "name": "Bodenfunktionsbewertung",
           "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "kusel_rivers",
+          "name": "Kusel Rivers",
+          "visibility": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "kusel_boundary",
+          "name": "Kusel Boundary",
+          "visibility": true,
           "showInLayerTree": true
         }
       ]

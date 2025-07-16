@@ -130,8 +130,8 @@
     "isBaseLayer": false
   },
   {
-    "id": "rp_GebaeudeBauwerke",
-    "name": "GebaüdeBauwerke",
+    "id": "rp_Gebaeude",
+    "name": "Gebäude",
     "typ": "WMS",
     "url": "https://geo5.service24.rlp.de/wms/liegenschaften_rp.fcgi?",
     "layers": "GebaeudeBauwerke",
