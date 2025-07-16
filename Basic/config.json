@@ -300,6 +300,12 @@
           "showInLayerTree": true
         },
         {
+          "id": "sturzflutgefahren",
+          "name": "Sturzflutgefahren",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
           "id": "kusel_rivers",
           "name": "Kusel Rivers",
           "visibility": true,

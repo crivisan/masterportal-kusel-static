@@ -108,6 +108,17 @@
     "isBaseLayer": false
   },
   {
+    "id": "rp_Sturzflutgefahren",
+    "name": "Sturzflutgefahren",
+    "typ": "WMS",
+    "url": "https://geodienste-wasser.rlp-umwelt.de/geoserver/Sturzflut/wms?",
+    "layers": "Visdom_Schummerung",
+    "format": "image/png",
+    "version": "1.3.0",
+    "transparent": true,
+    "isBaseLayer": false
+  },
+  {
     "id": "rp_Nutzung",
     "name": "Nutzung",
     "typ": "WMS",
