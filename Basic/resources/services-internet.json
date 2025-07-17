@@ -127,7 +127,10 @@
     "format": "image/png",
     "version": "1.1.1",
     "transparent": true,
-    "isBaseLayer": false
+    "isBaseLayer": false,
+    "legend": [
+      "https://geo5.service24.rlp.de/liegenschaften/liegenschaften_legende_nutzung.png"
+    ]
   },
   {
     "id": "rp_Hintergrund",
@@ -149,7 +152,10 @@
     "format": "image/png",
     "version": "1.1.1",
     "transparent": true,
-    "isBaseLayer": false
+    "isBaseLayer": false,
+    "legend": [
+      "https://geo5.service24.rlp.de/liegenschaften/liegenschaften_legende_gebaeude.png"
+    ]
   },
   {
     "id": "rp_Flurstueck",
@@ -160,7 +166,10 @@
     "format": "image/png",
     "version": "1.1.1",
     "transparent": true,
-    "isBaseLayer": false
+    "isBaseLayer": false,
+    "legend": [
+      "https://geo5.service24.rlp.de/liegenschaften/liegenschaften_legende_flurstuecke.png"
+    ]
   },
   {
     "id": "geol_bodenart",
@@ -218,5 +227,4 @@
       "https://geodaten.naturschutz.rlp.de/kartendienste_naturschutz/mod_ogc/wms_getmap.php?mapfile=naturschutzgebiet&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=naturschutzgebiet&format=image/png&STYLE=default"
     ]
   }
-
 ]

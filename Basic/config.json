@@ -254,25 +254,25 @@
         {
           "id": "rp_oeffentlich-rechtliche_Festlegungen",
           "name": "Öffentlich Rechtliche Festlegungen",
-          "visibility": true,
+          "visibility": false,
           "showInLayerTree": true
         },
         {
           "id": "rp_Hintergrund",
           "name": "Hintergrund",
           "visibility": false,
-          "showInLayerTree": true
+          "showInLayerTree": false
         },
         {
           "id": "rp_Nutzung",
           "name": "Nutzung",
-          "visibility": true,
+          "visibility": false,
           "showInLayerTree": true
         },
         {
           "id": "rp_Gebaeude",
           "name": "Gebäude",
-          "visibility": true,
+          "visibility": false,
           "showInLayerTree": true
         },
         {
@@ -306,6 +306,12 @@
           "showInLayerTree": true
         },
         {
+          "id": "naturschutzgebiete",
+          "name": "Naturschutzgebiete RLP",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
           "id": "kusel_rivers",
           "name": "Kusel Rivers",
           "visibility": true,
@@ -314,12 +320,6 @@
         {
           "id": "kusel_boundary",
           "name": "Kusel Boundary",
-          "visibility": true,
-          "showInLayerTree": true
-        },
-        {
-          "id": "naturschutzgebiete",
-          "name": "Naturschutzgebiete RLP",
           "visibility": true,
           "showInLayerTree": true
         }
