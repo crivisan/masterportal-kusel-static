@@ -329,6 +329,13 @@
           "visibility": true,
           "showInLayerTree": true
         }
+        ,
+        {
+          "id": "kusel_stadt_flaechennutzungsplan",
+          "name": "Kusel Stadt Flächennutzungsplan",
+          "visibility": true,
+          "showInLayerTree": true
+        }
       ]
     }
   }
