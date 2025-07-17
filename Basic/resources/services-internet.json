@@ -226,5 +226,19 @@
     "legend": [
       "https://geodaten.naturschutz.rlp.de/kartendienste_naturschutz/mod_ogc/wms_getmap.php?mapfile=naturschutzgebiet&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=naturschutzgebiet&format=image/png&STYLE=default"
     ]
+  },
+  {
+    "id": "VBS",
+    "name": "Biotopsysteme",
+    "typ": "WMS",
+    "url": "https://map-final.rlp-umwelt.de/Kartendienste/index.php?service=vbs",
+    "layers": "vbs_flaechenhafte_biotope_1",
+    "format": "image/png",
+    "version": "1.1.1",
+    "transparent": true,
+    "isBaseLayer": false,
+    "legend": [
+      "https://map-final.rlp-umwelt.de/kartendienste/mod_ogc/wms_getmap.php?mapfile=vbs&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=vbs_flaechenhafte_biotope_1&format=image/png&STYLE=default"
+    ]
   }
 ]

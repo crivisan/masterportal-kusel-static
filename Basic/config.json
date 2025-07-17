@@ -37,16 +37,16 @@
       "mapView": {
         "backgroundImage": "./resources/img/backgroundCanvas.jpeg",
         "startCenter": [
-          382500,
-          5480000
+          388960,
+          5490750
         ],
         "extent": [
-          365000,
-          5460000,
-          400000,
-          5500000
+          369331.78,
+          5469011.55,
+          411021.98,
+          5508056.01
         ],
-        "startZoomLevel": 3
+        "startZoomLevel": -1
       }
     },
     "portalFooter": {
@@ -308,6 +308,12 @@
         {
           "id": "naturschutzgebiete",
           "name": "Naturschutzgebiete RLP",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "VBS",
+          "name": "Biotopsysteme",
           "visibility": false,
           "showInLayerTree": true
         },
