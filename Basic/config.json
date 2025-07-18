@@ -232,7 +232,7 @@
           "id": "topplus_wmts",
           "name": "TopPlusOpen (WMTS)",
           "typ": "WMTS",
-          "visibility": false,
+          "visibility": true,
           "showInLayerTree": true
         }
       ]
@@ -328,12 +328,17 @@
           "name": "Kusel Boundary",
           "visibility": true,
           "showInLayerTree": true
-        }
-        ,
+        },        
         {
           "id": "kusel_stadt_flaechennutzungsplan",
           "name": "Kusel Stadt Flächennutzungsplan",
-          "visibility": true,
+          "visibility": false,
+          "showInLayerTree": true
+        },        
+        {
+          "id": "lep_iv_landesweit_bedeutsamer_bereich",
+          "name": "LEP IV landesweit bedeutsamer Bereich",
+          "visibility": false,
           "showInLayerTree": true
         }
       ]
