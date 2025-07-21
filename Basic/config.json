@@ -67,7 +67,7 @@
     "mainMenu": {
       "expanded": true,
       "title": {
-        "text": "Landkreis Kusel Geoportal",
+        "text": "Landkreis Kusel Geoportal (DEMO)",
         "logo": "./resources/img/Landkreis-Kusel-Logo-1.png",
         "link": "https://www.landkreis-kusel.de/",
         "toolTip": "Masterportal"
@@ -252,6 +252,13 @@
           "showInLayerTree": true
         },
         {
+          "id": "dop20_rp",
+          "name": "Orthophoto RLP (DOP20)",
+          "typ": "WMS",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
           "id": "rp_oeffentlich-rechtliche_Festlegungen",
           "name": "Öffentlich Rechtliche Festlegungen",
           "visibility": false,
@@ -328,13 +335,13 @@
           "name": "Kusel Boundary",
           "visibility": true,
           "showInLayerTree": true
-        },        
+        },
         {
           "id": "kusel_stadt_flaechennutzungsplan",
           "name": "Kusel Stadt Flächennutzungsplan",
           "visibility": false,
           "showInLayerTree": true
-        },        
+        },
         {
           "id": "lep_iv_landesweit_bedeutsamer_bereich",
           "name": "LEP IV landesweit bedeutsamer Bereich",

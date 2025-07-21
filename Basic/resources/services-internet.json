@@ -249,5 +249,18 @@
     "legend": [
       "https://map-final.rlp-umwelt.de/kartendienste/mod_ogc/wms_getmap.php?mapfile=vbs&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=vbs_flaechenhafte_biotope_1&format=image/png&STYLE=default"
     ]
+  },
+  {
+    "id": "dop20_rp",
+    "name": "RLP DOP20 Orthophotos",
+    "typ": "WMS",
+    "url": "http://18.185.132.72:8080/geoserver/Kusel/wms",
+    "layers": "Kusel:rp_dop20",
+    "format": "image/png",
+    "version": "1.1.1",
+    "transparent": false,
+    "isBaseLayer": true,
+    "urlIsVisible": true,
+    "legend": false
   }
 ]
