@@ -247,13 +247,6 @@
           "typ": "WMTS",
           "visibility": false,
           "showInLayerTree": true
-        },
-        {
-          "id": "dop20_rp",
-          "name": "Orthophoto RLP (DOP20)",
-          "typ": "WMS",
-          "visibility": true,
-          "showInLayerTree": true
         }
       ]
     },
@@ -271,72 +264,8 @@
           "visibility": true,
           "showInLayerTree": true
         },
-        {
-          "id": "rp_oeffentlich-rechtliche_Festlegungen",
-          "name": "Öffentlich Rechtliche Festlegungen",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        {
-          "id": "rp_Hintergrund",
-          "name": "Hintergrund",
-          "visibility": false,
-          "showInLayerTree": false
-        },
-        {
-          "id": "rp_Nutzung",
-          "name": "Nutzung",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        {
-          "id": "rp_Gebaeude",
-          "name": "Gebäude",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        {
-          "id": "rp_Flurstueck",
-          "name": "Flurstueck",
-          "visibility": true,
-          "showInLayerTree": true
-        },
-        {
-          "id": "geol_bodenart",
-          "name": "Bodenart",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        {
-          "id": "geol_ackerzahl",
-          "name": "Ackerzahl",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        {
-          "id": "geol_bodenfunktion",
-          "name": "Bodenfunktionsbewertung",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        {
-          "id": "sturzflutgefahren",
-          "name": "Sturzflutgefahren",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        {
-          "id": "naturschutzgebiete",
-          "name": "Naturschutzgebiete RLP",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        {
-          "id": "VBS",
-          "name": "Biotopsysteme",
-          "visibility": false,
-          "showInLayerTree": true
-        },
+
+
         {
           "id": "kusel_rivers",
           "name": "Landkreis Kusel Flussnetz",
@@ -348,26 +277,6 @@
           "name": "Landkreis Kusel Verwaltungsgrenze",
           "visibility": true,
           "showInLayerTree": true
-        },
-        {
-          "id": "kusel_stadt_flaechennutzungsplan",
-          "name": "Kusel Stadt Flächennutzungsplan",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        {
-          "id": "lep_iv_landesweit_bedeutsamer_bereich",
-          "name": "LEP IV landesweit bedeutsamer Bereich",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        {
-          "id": "lk_kusel_background",
-          "name": "lk_kusel_background",
-          "visibility": true,
-          "showInLayerTree": false,
-          "isNeverVisibleInTree": true,
-          "description": "!!! Leave always at the end"
         }
       ]
     }
