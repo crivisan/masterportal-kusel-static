@@ -1,6 +1,9 @@
 {
   "portalConfig": {
     "map": {
+      "baselayerSwitcher": {
+        "active": true
+      },
       "controls": {
         "rotation": {
           "showResetRotationAlways": true,
@@ -53,9 +56,9 @@
       "urls": [
         {
           "bezeichnung": "common:modules.portalFooter.designation",
-          "url": "https://geoinfo.hamburg.de/",
-          "alias": "Landesbetrieb Geoinformation und Vermessung",
-          "alias_mobil": "LGV"
+          "url": "https://www.landkreis-kusel.de/",
+          "alias": "Kreisverwaltung Kusel",
+          "alias_mobil": "KV-KUS"
         }
       ]
     },
@@ -70,9 +73,10 @@
         "text": "Landkreis Kusel Geoportal (DEMO)",
         "logo": "./resources/img/Landkreis-Kusel-Logo-1.png",
         "link": "https://www.landkreis-kusel.de/",
-        "toolTip": "Masterportal"
+        "toolTip": "(DEMO) Geoportal"
       },
       "searchBar": {
+        "placeholder": "common:modules.searchBar.placeholder.addressTopic",
         "searchInterfaces": [
           {
             "type": "komootPhoton",
@@ -94,6 +98,9 @@
               ],
               "onHover": [
                 "setMarker"
+              ],
+              "buttons": [
+                "startRouting"
               ]
             }
           },
@@ -105,6 +112,12 @@
       },
       "sections": [
         [
+          {
+            "type": "about",
+            "cswUrl": "Demo",
+            "metaUrl": "DEMO",
+            "metaId": "DEMO"
+          },
           {
             "type": "fileImport"
           },
