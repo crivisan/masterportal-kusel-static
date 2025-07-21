@@ -339,13 +339,13 @@
         },
         {
           "id": "kusel_rivers",
-          "name": "Kusel Rivers",
+          "name": "Landkreis Kusel Flussnetz",
           "visibility": true,
           "showInLayerTree": true
         },
         {
           "id": "kusel_boundary",
-          "name": "Kusel Boundary",
+          "name": "Landkreis Kusel Verwaltungsgrenze",
           "visibility": true,
           "showInLayerTree": true
         },
