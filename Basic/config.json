@@ -245,6 +245,13 @@
           "id": "topplus_wmts",
           "name": "TopPlusOpen (WMTS)",
           "typ": "WMTS",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "dop20_rp",
+          "name": "Orthophoto RLP (DOP20)",
+          "typ": "WMS",
           "visibility": true,
           "showInLayerTree": true
         }
@@ -262,13 +269,6 @@
           "id": "3",
           "name": "3D-Terrain-Merged",
           "visibility": true,
-          "showInLayerTree": true
-        },
-        {
-          "id": "dop20_rp",
-          "name": "Orthophoto RLP (DOP20)",
-          "typ": "WMS",
-          "visibility": false,
           "showInLayerTree": true
         },
         {
@@ -360,6 +360,14 @@
           "name": "LEP IV landesweit bedeutsamer Bereich",
           "visibility": false,
           "showInLayerTree": true
+        },
+        {
+          "id": "lk_kusel_background",
+          "name": "lk_kusel_background",
+          "visibility": true,
+          "showInLayerTree": false,
+          "isNeverVisibleInTree": true,
+          "description": "!!! Leave always at the end"
         }
       ]
     }
