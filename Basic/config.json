@@ -245,7 +245,7 @@
           "id": "topplus_wmts",
           "name": "TopPlusOpen (WMTS)",
           "typ": "WMTS",
-          "visibility": false,
+          "visibility": true,
           "showInLayerTree": true
         }
       ]
@@ -264,8 +264,43 @@
           "visibility": true,
           "showInLayerTree": true
         },
-
-
+        {
+          "id": "dop20_rp",
+          "name": "Orthophoto RLP (DOP20)",
+          "typ": "WMS",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "lep_iv_landesweit_bedeutsamer_bereich",
+          "name": "LEP IV landesweit bedeutsamer Bereich",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "geol_bodenart",
+          "name": "Bodenart",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "geol_ackerzahl",
+          "name": "Ackerzahl",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "naturschutzgebiete",
+          "name": "Naturschutzgebiete RLP",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "rp_Flurstueck",
+          "name": "Flurstücke (ab 1:5000)",
+          "visibility": false,
+          "showInLayerTree": true
+        },
         {
           "id": "kusel_rivers",
           "name": "Landkreis Kusel Flussnetz",
