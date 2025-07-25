@@ -66,8 +66,37 @@
     "layers": "LK-KUS-Border",
     "format": "image/png",
     "version": "1.1.0",
-    "transparent": true,
-    "isBaseLayer": false
+    "transparent": true
+  },
+  {
+    "id": "vg_ka",
+    "name": "VG Kusel-Altenglan",
+    "typ": "WMS",
+    "url": "http://3.120.130.2:8080/geoserver/Kusel/wms",
+    "layers": "vg_ka_enriched",
+    "format": "image/png",
+    "version": "1.1.0",
+    "transparent": true
+  },
+  {
+    "id": "vg_og",
+    "name": "VG Oberes Glantal",
+    "typ": "WMS",
+    "url": "http://3.120.130.2:8080/geoserver/Kusel/wms",
+    "layers": "vg_og_enriched",
+    "format": "image/png",
+    "version": "1.1.0",
+    "transparent": true
+  },
+  {
+    "id": "vg_lw",
+    "name": "VG Lauterecken-Wolfstein",
+    "typ": "WMS",
+    "url": "http://3.120.130.2:8080/geoserver/Kusel/wms",
+    "layers": "vg_lw_enriched",
+    "format": "image/png",
+    "version": "1.1.0",
+    "transparent": true
   },
   {
     "id": "kusel_rivers",
@@ -98,7 +127,6 @@
       "https://geo5.service24.rlp.de/liegenschaften/liegenschaften_legende_flurstuecke.png"
     ]
   },
-
   {
     "id": "geol_ackerzahl",
     "name": "Ackerzahl",
@@ -142,19 +170,19 @@
     ]
   },
   {
-  "id": "lep_iv_landesweit_bedeutsamer_bereich",
-  "name": "LEP IV landesweit bedeutsamer Bereich",
-  "typ": "WMS",
-  "url": "http://3.120.130.2/lepiv",
-  "layers": "lbbf",
-  "format": "image/png",
-  "version": "1.1.1",
-  "transparent": true,
-  "isBaseLayer": false,
-  "legend": [
-    "https://map-final.rlp-umwelt.de/kartendienste/mod_ogc/wms_getmap.php?mapfile=vbs&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=vbs_flaechenhafte_biotope_1&format=image/png&STYLE=default"
-  ]
-},
+    "id": "lep_iv_landesweit_bedeutsamer_bereich",
+    "name": "LEP IV landesweit bedeutsamer Bereich",
+    "typ": "WMS",
+    "url": "http://3.120.130.2/lepiv",
+    "layers": "lbbf",
+    "format": "image/png",
+    "version": "1.1.1",
+    "transparent": true,
+    "isBaseLayer": false,
+    "legend": [
+      "https://map-final.rlp-umwelt.de/kartendienste/mod_ogc/wms_getmap.php?mapfile=vbs&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=vbs_flaechenhafte_biotope_1&format=image/png&STYLE=default"
+    ]
+  },
   {
     "id": "dop20_rp",
     "name": "RLP DOP20 Orthophotos",
