@@ -1,0 +1,54 @@
+{
+    "type": "language"
+},
+{
+    "type": "wfst", //secondary menu - sections
+    "name": "WFS-T Tool",
+    "layerIds": [
+        "lgvline",
+        "lgvpoint",
+        "lgvpolygon"
+    ],
+    "toggleLayer": false,
+    "lineButton": [
+        {
+            "layerId": "lgvline",
+            "available": true
+        }
+    ],
+    "pointButton": [
+        {
+            "layerId": "lgvpoint",
+            "available": true
+        }
+    ],
+    "polygonButton": [
+        {
+            "layerId": "lgvpolygon",
+            "available": true
+        }
+    ],
+    "update": "Bearbeiten!",
+    "delete": true
+},
+{
+    "type": "layerSlider", //secondary menu - sections
+    "layerIds": [
+        {
+            "title": "common:modules.layerSlider.serviceOne",
+            "layerId": "dop20_rp"
+        },
+        {
+            "title": "common:modules.layerSlider.serviceTwo",
+            "layerId": "lep_iv_landesweit_bedeutsamer_bereich"
+        },
+        {
+            "title": "common:modules.layerSlider.serviceThree",
+            "layerId": "Ackerzahl"
+        },
+        {
+            "title": "common:modules.layerSlider.serviceFour",
+            "layerId": "Bodenart"
+        }
+    ]
+}

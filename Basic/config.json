@@ -148,16 +148,13 @@
       "sections": [
         [
           {
-            "type": "about",
-            "cswUrl": "Demo",
-            "metaUrl": "DEMO",
-            "metaId": "DEMO"
-          },
-          {
             "type": "fileImport"
           },
           {
-            "type": "openConfig"
+            "type": "scaleSwitcher"
+          },
+          {
+            "type": "shareView"
           },
           {
             "type": "contact",
@@ -165,19 +162,22 @@
             "includeSystemInfo": true,
             "from": [
               {
-                "email": "lgvgeoportal-hilfe@gv.hamburg.de",
-                "name": "LGVGeoportalHilfe"
+                "email": "cristhian.sanchez@kv-kus.de",
+                "name": "LK-KUS GeoportalHilfe"
               }
             ],
             "to": [
               {
-                "email": "lgvgeoportal-hilfe@gv.hamburg.de",
-                "name": "LGVGeoportalHilfe"
+                "email": "cristhian.sanchez@kv-kus.de",
+                "name": "LK-KUS GeoportalHilfe"
               }
             ]
           },
           {
-            "type": "language"
+            "type": "about",
+            "cswUrl": "Demo",
+            "metaUrl": "DEMO",
+            "metaId": "DEMO"
           }
         ]
       ]
@@ -187,43 +187,7 @@
       "sections": [
         [
           {
-            "type": "wfst",
-            "name": "WFS-T Tool",
-            "layerIds": [
-              "lgvline",
-              "lgvpoint",
-              "lgvpolygon"
-            ],
-            "toggleLayer": false,
-            "lineButton": [
-              {
-                "layerId": "lgvline",
-                "available": true
-              }
-            ],
-            "pointButton": [
-              {
-                "layerId": "lgvpoint",
-                "available": true
-              }
-            ],
-            "polygonButton": [
-              {
-                "layerId": "lgvpolygon",
-                "available": true
-              }
-            ],
-            "update": "Bearbeiten!",
-            "delete": true
-          },
-          {
             "type": "legend"
-          },
-          {
-            "type": "scaleSwitcher"
-          },
-          {
-            "type": "shareView"
           },
           {
             "type": "measure"
@@ -245,33 +209,11 @@
             "type": "bufferAnalysis"
           },
           {
-            "type": "layerSlider",
-            "layerIds": [
-              {
-                "title": "common:modules.layerSlider.serviceOne",
-                "layerId": "19173"
-              },
-              {
-                "title": "common:modules.layerSlider.serviceTwo",
-                "layerId": "2426"
-              },
-              {
-                "title": "common:modules.layerSlider.serviceThree",
-                "layerId": "8712.2"
-              },
-              {
-                "title": "common:modules.layerSlider.serviceFour",
-                "layerId": "1711"
-              }
-            ]
-          },
-          {
             "type": "layerClusterToggler",
             "layerIdList": [
-              "8712.1",
-              "8712.2",
-              "8712.3",
-              "8712.4"
+              "dop20_rp",
+              "geol_bodenart",
+              "geol_ackerzahl"
             ]
           }
         ]
@@ -298,12 +240,14 @@
         {
           "id": "geol_bodenart",
           "name": "Bodenart",
+          "typ": "WMS",
           "visibility": false,
           "showInLayerTree": false
         },
         {
           "id": "geol_ackerzahl",
           "name": "Ackerzahl",
+          "typ": "WMS",
           "visibility": false,
           "showInLayerTree": false
         },
