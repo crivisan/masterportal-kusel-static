@@ -66,7 +66,8 @@
     "layers": "LK-KUS-Border",
     "format": "image/png",
     "version": "1.1.0",
-    "transparent": true
+    "transparent": true,
+    "gfiAttributes": "ignore"
   },
   {
     "id": "vg_ka",
@@ -86,7 +87,14 @@
     "layers": "vg_og_enriched",
     "format": "image/png",
     "version": "1.1.0",
-    "transparent": true
+    "transparent": true,
+    "gfiAttributes": {
+      "vg_name": "Verbandsgemeinde",
+      "GEN": "Gemeinde",
+      "flaeche_ha": "Fläche (ha)",
+      "flaeche_qm": "Fläche (qm)",
+      "umfang_m": "Umfang (m)"
+    }
   },
   {
     "id": "vg_lw",
@@ -194,6 +202,7 @@
     "transparent": false,
     "isBaseLayer": true,
     "urlIsVisible": true,
-    "legend": false
+    "legend": false,
+    "gfiAttributes": "ignore"
   }
 ]

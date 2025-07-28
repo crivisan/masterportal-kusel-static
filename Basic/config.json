@@ -1,7 +1,6 @@
 {
   "portalConfig": {
     "map": {
-      
       "baselayerSwitcher": {
         "active": true
       },
@@ -45,12 +44,12 @@
           5490750
         ],
         "extent": [
-          369331.78,
-          5469011.55,
-          411021.98,
-          5508056.01
+          372101.24,
+          5468425.09,
+          409999.99,
+          5504357.84
         ],
-        "startZoomLevel": -1
+        "startZoomLevel": 1
       }
     },
     "portalFooter": {
@@ -239,11 +238,9 @@
       ]
     }
   },
-  
   "layerConfig": {
     "baselayer": {
       "elements": [
-        
         {
           "id": "topplus_wmts",
           "name": "TopPlusOpen (WMTS)",
