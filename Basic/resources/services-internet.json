@@ -210,6 +210,7 @@
     "transparent": true,
     "isBaseLayer": false,
     "isNeverVisibleInTree": false,
+    "gfiAttributes": "ignore",
     "legend": [
       "https://map-final.rlp-umwelt.de/kartendienste/mod_ogc/wms_getmap.php?mapfile=vbs&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=vbs_flaechenhafte_biotope_1&format=image/png&STYLE=default"
     ]

@@ -229,6 +229,11 @@
             "type": "measure"
           },
           {
+            "type": "draw_old",
+            "enableAttributesSelector": true,
+            "addIconsOfActiveLayers": true
+          },
+          {
             "type": "coordToolkit",
             "heightLayerId": "19173",
             "heightElementName": "value_0",
