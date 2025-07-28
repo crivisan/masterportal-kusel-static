@@ -252,7 +252,31 @@
           "id": "dop20_rp",
           "name": "Orthophoto RLP (DOP20)",
           "typ": "WMS",
-          "visibility": true,
+          "visibility": false,
+          "showInLayerTree": false
+        },
+        {
+          "id": "geol_bodenart",
+          "name": "Bodenart",
+          "visibility": false,
+          "showInLayerTree": false
+        },
+        {
+          "id": "geol_ackerzahl",
+          "name": "Ackerzahl",
+          "visibility": false,
+          "showInLayerTree": false
+        },
+        {
+          "id": "lep_iv_landesweit_bedeutsamer_bereich",
+          "name": "LEP IV landesweit bedeutsamer Bereich",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "rp_Flurstueck",
+          "name": "Flurstücke (ab 1:5000)",
+          "visibility": false,
           "showInLayerTree": true
         }
       ]
@@ -272,36 +296,6 @@
           "showInLayerTree": true
         },
         {
-          "id": "lep_iv_landesweit_bedeutsamer_bereich",
-          "name": "LEP IV landesweit bedeutsamer Bereich",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        {
-          "id": "geol_bodenart",
-          "name": "Bodenart",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        {
-          "id": "geol_ackerzahl",
-          "name": "Ackerzahl",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        {
-          "id": "naturschutzgebiete",
-          "name": "Naturschutzgebiete RLP",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        {
-          "id": "rp_Flurstueck",
-          "name": "Flurstücke (ab 1:5000)",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        {
           "id": "vg_ka",
           "name": "VG Kusel-Altenglan",
           "visibility": true,
@@ -317,6 +311,12 @@
           "id": "vg_og",
           "name": "VG Oberes Glantal",
           "visibility": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "naturschutzgebiete",
+          "name": "Naturschutzgebiete RLP",
+          "visibility": false,
           "showInLayerTree": true
         },
         {

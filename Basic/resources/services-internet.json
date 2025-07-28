@@ -47,11 +47,10 @@
     "tileMatrixSet": "WEBMERCATOR",
     "coordinateSystem": "EPSG:3857",
     "gfiAttributes": "ignore",
-    "legend": [
-      "https://sg.geodatenzentrum.de/wms_topplus_open?styles=&layer=web&service=WMS&format=image/png&sld_version=1.1.0&request=GetLegendGraphic&version=1.1.1"
-    ],
+    "legend": false,
     "requestEncoding": "REST",
     "resLength": "13",
+    "isNeverVisibleInTree": true,
     "datasets": [
       {
         "md_id": "A1C4E929-3EC9-4758-9677-DB4970D226AB",
@@ -151,6 +150,7 @@
     "version": "1.1.1",
     "transparent": true,
     "isBaseLayer": false,
+    "isNeverVisibleInTree": true,
     "legend": [
       "https://geo5.service24.rlp.de/liegenschaften/liegenschaften_legende_flurstuecke.png"
     ]
@@ -165,6 +165,7 @@
     "version": "1.3.0",
     "transparent": true,
     "isBaseLayer": false,
+    "isNeverVisibleInTree": true,
     "legend": [
       "https://mapserver.lgb-rlp.de/cgi-bin/mc_bfd5?version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=ackerzahl&format=image/png&STYLE=default"
     ]
@@ -179,6 +180,7 @@
     "version": "1.3.0",
     "transparent": true,
     "isBaseLayer": false,
+    "isNeverVisibleInTree": true,
     "legend": [
       "https://mapserver.lgb-rlp.de/cgi-bin/mc_bfd5?version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=bodenart&format=image/png&STYLE=default"
     ]
@@ -207,6 +209,7 @@
     "version": "1.1.1",
     "transparent": true,
     "isBaseLayer": false,
+    "isNeverVisibleInTree": true,
     "legend": [
       "https://map-final.rlp-umwelt.de/kartendienste/mod_ogc/wms_getmap.php?mapfile=vbs&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=vbs_flaechenhafte_biotope_1&format=image/png&STYLE=default"
     ]
@@ -223,6 +226,7 @@
     "isBaseLayer": true,
     "urlIsVisible": true,
     "legend": false,
+    "isNeverVisibleInTree": true,
     "gfiAttributes": "ignore"
   }
 ]
