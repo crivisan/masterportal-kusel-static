@@ -1,6 +1,7 @@
 {
   "portalConfig": {
     "map": {
+      
       "baselayerSwitcher": {
         "active": true
       },
@@ -238,9 +239,11 @@
       ]
     }
   },
+  
   "layerConfig": {
     "baselayer": {
       "elements": [
+        
         {
           "id": "topplus_wmts",
           "name": "TopPlusOpen (WMTS)",

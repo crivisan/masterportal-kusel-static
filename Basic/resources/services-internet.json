@@ -19,7 +19,7 @@
     "legend": false,
     "transparent": true,
     "typ": "Terrain3D",
-    "url": "../tiles/Test_3D_terrain_merged"
+    "url": "../tiles/dgm1_terrain_all"
   },
   {
     "id": "topplus_wmts",
