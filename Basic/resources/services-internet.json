@@ -150,7 +150,7 @@
     "version": "1.1.1",
     "transparent": true,
     "isBaseLayer": false,
-    "isNeverVisibleInTree": true,
+    "isNeverVisibleInTree": false,
     "legend": [
       "https://geo5.service24.rlp.de/liegenschaften/liegenschaften_legende_flurstuecke.png"
     ]
@@ -209,7 +209,7 @@
     "version": "1.1.1",
     "transparent": true,
     "isBaseLayer": false,
-    "isNeverVisibleInTree": true,
+    "isNeverVisibleInTree": false,
     "legend": [
       "https://map-final.rlp-umwelt.de/kartendienste/mod_ogc/wms_getmap.php?mapfile=vbs&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=vbs_flaechenhafte_biotope_1&format=image/png&STYLE=default"
     ]
@@ -226,7 +226,7 @@
     "isBaseLayer": true,
     "urlIsVisible": true,
     "legend": false,
-    "isNeverVisibleInTree": true,
+    "isNeverVisibleInTree": false,
     "gfiAttributes": "ignore"
   }
 ]
