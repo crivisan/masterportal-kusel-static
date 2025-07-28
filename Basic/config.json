@@ -248,6 +248,13 @@
           "id": "topplus_wmts",
           "name": "TopPlusOpen (WMTS)",
           "typ": "WMTS",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "dop20_rp",
+          "name": "Orthophoto RLP (DOP20)",
+          "typ": "WMS",
           "visibility": true,
           "showInLayerTree": true
         }
@@ -265,13 +272,6 @@
           "id": "3",
           "name": "3D-Terrain-Merged",
           "visibility": true,
-          "showInLayerTree": true
-        },
-        {
-          "id": "dop20_rp",
-          "name": "Orthophoto RLP (DOP20)",
-          "typ": "WMS",
-          "visibility": false,
           "showInLayerTree": true
         },
         {
@@ -305,10 +305,30 @@
           "showInLayerTree": true
         },
         {
+          "id": "vg_ka",
+          "name": "VG Kusel-Altenglan",
+          "visibility": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "vg_lw",
+          "name": "VG Lauterecken-Wolfstein",
+          "visibility": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "vg_og",
+          "name": "VG Oberes Glantal",
+          "visibility": true,
+          "showInLayerTree": true
+        },
+        {
           "id": "kusel_rivers",
           "name": "Landkreis Kusel Flussnetz",
           "visibility": true,
-          "showInLayerTree": true
+          "showInLayerTree": true,
+          "minScale": "500",
+          "maxScale": "40000"
         },
         {
           "id": "kusel_boundary",
