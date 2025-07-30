@@ -149,6 +149,13 @@
     "format": "image/png",
     "version": "1.1.0",
     "transparent": true,
+    "isSecured": true,
+    "authenticationUrl": "http://3.120.130.2:8080/geoserver/Kusel/wms",
+    "layerSequence": "fnp_vg_og_georeferenced_cubic44_clipped_alpha",
+    "credentials": {
+      "user": "{DYNAMIC}",
+      "password": "{DYNAMIC}"
+    },
     "legend": [
       "http://3.120.130.2:8080/geoserver/www/legends/fnp_vg_og_legend.png"
     ]

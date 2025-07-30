@@ -306,7 +306,7 @@
         {
           "id": "fnp_vg_og",
           "name": "Flächennutzungspläne VG OG",
-          "visibility": true,
+          "visibility": false,
           "showInLayerTree": true
         },
         {
