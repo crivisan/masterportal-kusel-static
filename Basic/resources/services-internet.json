@@ -153,6 +153,7 @@
     "authenticationMethod": "prompt",
     "isBaseLayer": true,
     "isNeverVisibleInTree": false,
+    "gfiAttributes": "ignore",
     "legend": [
       "http://3.120.130.2:8080/geoserver/www/legends/fnp_vg_og_legend.png"
     ]
@@ -168,6 +169,7 @@
     "transparent": true,
     "isBaseLayer": true,
     "isNeverVisibleInTree": false,
+    "gfiAttributes": "ignore",
     "legend": [
       "https://geo5.service24.rlp.de/liegenschaften/liegenschaften_legende_flurstuecke.png"
     ]
@@ -183,6 +185,7 @@
     "transparent": true,
     "isBaseLayer": true,
     "isNeverVisibleInTree": false,
+    "gfiAttributes": "ignore",
     "legend": [
       "https://mapserver.lgb-rlp.de/cgi-bin/mc_bfd5?version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=ackerzahl&format=image/png&STYLE=default"
     ]
@@ -198,6 +201,7 @@
     "transparent": true,
     "isBaseLayer": true,
     "isNeverVisibleInTree": false,
+    "gfiAttributes": "ignore",
     "legend": [
       "https://mapserver.lgb-rlp.de/cgi-bin/mc_bfd5?version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=bodenart&format=image/png&STYLE=default"
     ]
@@ -213,6 +217,7 @@
     "transparent": true,
     "isBaseLayer": true,
     "isNeverVisibleInTree": false,
+    "gfiAttributes": "ignore",
     "legend": [
       "https://geodaten.naturschutz.rlp.de/kartendienste_naturschutz/mod_ogc/wms_getmap.php?mapfile=naturschutzgebiet&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=naturschutzgebiet&format=image/png&STYLE=default"
     ]
