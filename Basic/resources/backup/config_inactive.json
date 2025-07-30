@@ -51,4 +51,15 @@
             "layerId": "Bodenart"
         }
     ]
+},
+{
+    "id": "naturschutzgebiete", //Baselayer - Problems with preview
+    "name": "Naturschutzgebiete RLP",
+    "visibility": false,
+    "showInLayerTree": true,
+    "preview": {
+        "zoomLevel": 16,
+        "center": "388960,5490750",
+        "radius": 100
+    }
 }

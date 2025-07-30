@@ -98,6 +98,9 @@
       ]
     },
     "tree": {
+      "addLayerButton": {
+        "active": true
+      },
       "highlightedFeatures": {
         "active": true
       }
@@ -224,16 +227,39 @@
     "baselayer": {
       "elements": [
         {
-          "id": "topplus_wmts",
-          "name": "TopPlusOpen (WMTS)",
-          "typ": "WMTS",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        {
           "id": "dop20_rp",
           "name": "Orthophoto RLP (DOP20)",
           "typ": "WMS",
+          "visibility": false,
+          "showInLayerTree": false
+        },
+        {
+          "id": "rp_Flurstueck",
+          "name": "Flurstücke (ab 1:5000)",
+          "visibility": false,
+          "showInLayerTree": false,
+          "preview": {
+            "zoomLevel": 16,
+            "center": "388960,5490750",
+            "radius": 100
+          }
+        },
+        {
+          "id": "fnp_vg_og",
+          "name": "Flächennutzungspläne VG OG",
+          "visibility": false,
+          "showInLayerTree": false
+        },
+        {
+          "id": "lep_iv_landesweit_bedeutsamer_bereich",
+          "name": "LEP IV landesweit bedeutsamer Bereich",
+          "visibility": false,
+          "showInLayerTree": false
+        },
+        {
+          "id": "topplus_wmts",
+          "name": "TopPlusOpen (WMTS)",
+          "typ": "WMTS",
           "visibility": false,
           "showInLayerTree": false
         },
@@ -250,24 +276,6 @@
           "typ": "WMS",
           "visibility": false,
           "showInLayerTree": false
-        },
-        {
-          "id": "lep_iv_landesweit_bedeutsamer_bereich",
-          "name": "LEP IV landesweit bedeutsamer Bereich",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        {
-          "id": "rp_Flurstueck",
-          "name": "Flurstücke (ab 1:5000)",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        {
-          "id": "naturschutzgebiete",
-          "name": "Naturschutzgebiete RLP",
-          "visibility": false,
-          "showInLayerTree": true
         }
       ]
     },
@@ -301,12 +309,6 @@
           "id": "vg_og",
           "name": "VG Oberes Glantal",
           "visibility": true,
-          "showInLayerTree": true
-        },
-        {
-          "id": "fnp_vg_og",
-          "name": "Flächennutzungspläne VG OG",
-          "visibility": false,
           "showInLayerTree": true
         },
         {
