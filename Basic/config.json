@@ -304,6 +304,12 @@
           "showInLayerTree": true
         },
         {
+          "id": "fnp_vg_og",
+          "name": "Flächennutzungspläne VG OG",
+          "visibility": true,
+          "showInLayerTree": true
+        },
+        {
           "id": "kusel_rivers",
           "name": "Landkreis Kusel Flussnetz",
           "visibility": true,

@@ -141,6 +141,19 @@
     }
   },
   {
+    "id": "fnp_vg_og",
+    "name": "Flächennutzungspläne VG OG",
+    "typ": "WMS",
+    "url": "http://3.120.130.2:8080/geoserver/Kusel/wms",
+    "layers": "fnp_vg_og_georeferenced_cubic44_clipped_alpha",
+    "format": "image/png",
+    "version": "1.1.0",
+    "transparent": true,
+    "legend": [
+      "http://3.120.130.2:8080/geoserver/www/legends/fnp_vg_og_legend.png"
+    ]
+  },
+  {
     "id": "rp_Flurstueck",
     "name": "Flurstueck",
     "typ": "WMS",
