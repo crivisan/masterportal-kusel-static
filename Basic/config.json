@@ -13,6 +13,11 @@
           "compass2d": true
         },
         "zoom": true,
+        "fullScreen": {
+          "iconArrow": "arrows-fullscreen",
+          "iconExit": "fullscreen-exit",
+          "newTabFromFrame": true
+        },
         "tiltView": true,
         "startModule": {
           "secondaryMenu": [
