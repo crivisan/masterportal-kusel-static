@@ -160,6 +160,9 @@
             "type": "shareView"
           },
           {
+            "type": "language"
+          },
+          {
             "type": "contact",
             "serviceId": "80001",
             "includeSystemInfo": true,

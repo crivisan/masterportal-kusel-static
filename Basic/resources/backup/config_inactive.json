@@ -1,7 +1,4 @@
 {
-    "type": "language"
-},
-{
     "type": "wfst", //secondary menu - sections
     "name": "WFS-T Tool",
     "layerIds": [
