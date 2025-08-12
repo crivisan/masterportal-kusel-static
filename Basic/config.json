@@ -262,7 +262,13 @@
           "visibility": true,
           "showInLayerTree": true
         },
-        
+                {
+          "id": "geologie",
+          "name": "GÜK300: Geologische Übersichtskarte",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+
         {
           "id": "rp_Flurstueck",
           "name": "Flurstücke (ab 1:5000)",

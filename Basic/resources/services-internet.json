@@ -252,5 +252,49 @@
     "legend": false,
     "isNeverVisibleInTree": false,
     "gfiAttributes": "ignore"
-  }
+  },
+
+
+{
+    "id": "geologie",
+    "name": "GÜK300: Geologische Übersichtskarte",
+    "url": "http://3.120.130.2/guek300",
+    "capabilitiesUrl": "http://3.120.130.2/guek300?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetCapabilities",
+    "typ": "WFS",
+    "featureType": "ms:geologische_uebersichtskarte300",
+    "outputFormat": "application/gml+xml; version=3.2",
+    "version": "2.0.0",
+    "featureNS": "http://mapserver.gis.umn.edu/mapserver",
+    "geometryName": "msGeometry",
+    "fitCapabilitiesExtent": true,
+    "gfiAttributes": {
+        "BEMERKUNG": "Bemerkung",
+        "STRATIGRAFIE": "Stratigrafie",
+        "PETROGRAFIE": "Petrografie", 
+        "FORMATION": "Formation",
+        "FAZIES": "Fazies",
+        "GRUPPE": "Gruppe",
+        "EPOCHE": "Epoche",
+        "PERIODE": "Periode",
+        "AERA": "Ära"
+    },  "wfsFilter": null,
+    "legend": true,
+    "isSecured": false,
+    "propertyNames": [
+        "OBJECTID",
+        "ID_LEG", 
+        "LABEL",
+        "BEMERKUNG",
+        "STRATIGRAFIE",
+        "PETROGRAFIE",
+        "FORMATION",
+        "FAZIES",
+        "GRUPPE",
+        "EPOCHE",
+        "PERIODE",
+        "AERA",
+        "msGeometry"
+    ]
+}
+
 ]
