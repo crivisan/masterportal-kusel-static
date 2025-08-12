@@ -2,7 +2,9 @@
   "portalConfig": {
     "map": {
       "baselayerSwitcher": {
-        "active": true
+        "active": true,
+        "singleBaseLayer": true,
+        "activatedExpandable": false
       },
       "controls": {
         "rotation": {
@@ -20,11 +22,7 @@
         },
         "tiltView": true,
         "startModule": {
-          "secondaryMenu": [
-            {
-              "type": "addWMS"
-            }
-          ]
+
         },
         "totalView": true,
         "button3d": true,
@@ -239,13 +237,37 @@
           "name": "Orthophoto RLP (DOP20)",
           "typ": "WMS",
           "visibility": false,
-          "showInLayerTree": false
+          "showInLayerTree": true
         },
+        {
+          "id": "topplus_wmts",
+          "name": "TopPlusOpen (WMTS)",
+          "typ": "WMTS",
+          "visibility": false,
+          "showInLayerTree": true
+        }
+      ]
+    },
+    "subjectlayer": {
+      "elements": [
+        {
+          "id": "1",
+          "name": "3D Gebäude Stadt Kusel",
+          "visiblity": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "3",
+          "name": "3D Geländeoberfläche",
+          "visibility": true,
+          "showInLayerTree": true
+        },
+        
         {
           "id": "rp_Flurstueck",
           "name": "Flurstücke (ab 1:5000)",
           "visibility": false,
-          "showInLayerTree": false,
+          "showInLayerTree": true,
           "preview": {
             "zoomLevel": 16,
             "center": "388960,5490750",
@@ -256,50 +278,36 @@
           "id": "fnp_vg_og",
           "name": "Flächennutzungspläne VG OG",
           "visibility": false,
-          "showInLayerTree": false
+          "showInLayerTree": true
         },
         {
           "id": "lep_iv_landesweit_bedeutsamer_bereich",
           "name": "LEP IV landesweit bedeutsamer Bereich",
           "visibility": false,
-          "showInLayerTree": false
+          "showInLayerTree": true
         },
-        {
-          "id": "topplus_wmts",
-          "name": "TopPlusOpen (WMTS)",
-          "typ": "WMTS",
-          "visibility": false,
-          "showInLayerTree": false
-        },
+        
         {
           "id": "geol_bodenart",
           "name": "Bodenart",
           "typ": "WMS",
           "visibility": false,
-          "showInLayerTree": false
+          "showInLayerTree": true
         },
         {
           "id": "geol_ackerzahl",
           "name": "Ackerzahl",
           "typ": "WMS",
           "visibility": false,
-          "showInLayerTree": false
-        }
-      ]
-    },
-    "subjectlayer": {
-      "elements": [
-        {
-          "id": "1",
-          "name": "3D-Modell",
-          "visiblity": true,
           "showInLayerTree": true
         },
-        {
-          "id": "3",
-          "name": "3D-Terrain-Merged",
+              {
+          "id": "kusel_rivers",
+          "name": "Landkreis Kusel Flussnetz",
           "visibility": true,
-          "showInLayerTree": true
+          "showInLayerTree": true,
+          "minScale": "500",
+          "maxScale": "40000"
         },
         {
           "id": "vg_ka",
@@ -319,14 +327,7 @@
           "visibility": true,
           "showInLayerTree": true
         },
-        {
-          "id": "kusel_rivers",
-          "name": "Landkreis Kusel Flussnetz",
-          "visibility": true,
-          "showInLayerTree": true,
-          "minScale": "500",
-          "maxScale": "40000"
-        },
+  
         {
           "id": "kusel_boundary",
           "name": "Landkreis Kusel Verwaltungsgrenze",
