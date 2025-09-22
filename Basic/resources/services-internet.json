@@ -176,7 +176,7 @@
   },
   {
     "id": "geol_ackerzahl",
-    "name": "Ackerzahl",
+    "name": "Bodenflächendaten - Ackerzahl",
     "typ": "WMS",
     "url": "https://mapserver.lgb-rlp.de/cgi-bin/mc_bfd5?",
     "layers": "Ackerzahl",
@@ -192,7 +192,7 @@
   },
   {
     "id": "geol_bodenart",
-    "name": "Bodenart",
+    "name": "Bodenflächendaten - Bodenart",
     "typ": "WMS",
     "url": "https://mapserver.lgb-rlp.de/cgi-bin/mc_bfd5?",
     "layers": "Bodenart",
@@ -223,22 +223,6 @@
     ]
   },
   {
-    "id": "lep_iv_landesweit_bedeutsamer_bereich",
-    "name": "LEP IV landesweit bedeutsamer Bereich",
-    "typ": "WMS",
-    "url": "http://3.120.130.2/lepiv",
-    "layers": "lbbf",
-    "format": "image/png",
-    "version": "1.1.1",
-    "transparent": true,
-    "isBaseLayer": true,
-    "isNeverVisibleInTree": false,
-    "gfiAttributes": "ignore",
-    "legend": [
-      "https://map-final.rlp-umwelt.de/kartendienste/mod_ogc/wms_getmap.php?mapfile=vbs&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=vbs_flaechenhafte_biotope_1&format=image/png&STYLE=default"
-    ]
-  },
-  {
     "id": "dop20_rp",
     "name": "RLP DOP20 Orthophotos",
     "typ": "WMS",
@@ -253,11 +237,10 @@
     "isNeverVisibleInTree": false,
     "gfiAttributes": "ignore"
   },
-
-
-{
+  {
     "id": "geologie",
-    "name": "GÜK300: Geologische Übersichtskarte",
+    "isNeverVisibleInTree": false,
+    "name": "Geologische Übersichtskarte (GÜK300)",
     "url": "http://3.120.130.2/guek300",
     "capabilitiesUrl": "http://3.120.130.2/guek300?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetCapabilities",
     "typ": "WFS",
@@ -268,33 +251,97 @@
     "geometryName": "msGeometry",
     "fitCapabilitiesExtent": true,
     "gfiAttributes": {
-        "BEMERKUNG": "Bemerkung",
-        "STRATIGRAFIE": "Stratigrafie",
-        "PETROGRAFIE": "Petrografie", 
-        "FORMATION": "Formation",
-        "FAZIES": "Fazies",
-        "GRUPPE": "Gruppe",
-        "EPOCHE": "Epoche",
-        "PERIODE": "Periode",
-        "AERA": "Ära"
-    },  "wfsFilter": null,
+      "BEMERKUNG": "Bemerkung",
+      "STRATIGRAFIE": "Stratigrafie",
+      "PETROGRAFIE": "Petrografie",
+      "FORMATION": "Formation",
+      "FAZIES": "Fazies",
+      "GRUPPE": "Gruppe",
+      "EPOCHE": "Epoche",
+      "PERIODE": "Periode",
+      "AERA": "Ära"
+    },
+    "wfsFilter": null,
     "legend": true,
     "isSecured": false,
     "propertyNames": [
-        "OBJECTID",
-        "ID_LEG", 
-        "LABEL",
-        "BEMERKUNG",
-        "STRATIGRAFIE",
-        "PETROGRAFIE",
-        "FORMATION",
-        "FAZIES",
-        "GRUPPE",
-        "EPOCHE",
-        "PERIODE",
-        "AERA",
-        "msGeometry"
+      "OBJECTID",
+      "ID_LEG",
+      "LABEL",
+      "BEMERKUNG",
+      "STRATIGRAFIE",
+      "PETROGRAFIE",
+      "FORMATION",
+      "FAZIES",
+      "GRUPPE",
+      "EPOCHE",
+      "PERIODE",
+      "AERA",
+      "msGeometry"
     ]
-}
-
+  },
+  {
+    "id": "lep_iv_landesweit_bedeutsamer_bereich",
+    "name": "LEP IV Landesweit Bedeutsamer Bereich",
+    "typ": "WMS",
+    "url": "http://3.120.130.2/lepiv",
+    "layers": "lbbf",
+    "format": "image/png",
+    "version": "1.1.1",
+    "transparent": true,
+    "isBaseLayer": true,
+    "isNeverVisibleInTree": false,
+    "gfiAttributes": "ignore",
+    "legend": [
+      "http://83.243.49.244/rauminfo/config/img/symbol/lep4_lbbf.png"
+    ]
+  },
+  {
+    "id": "vbs_flaechenhafte_biotope_1",
+    "name": "VBS Flächenhafte Biotope 1",
+    "typ": "WMS",
+    "url": "http://3.120.130.2:8080/geoserver/Kusel/wms",
+    "layers": "vbs_flaechenhafte_biotope_1",
+    "format": "image/png",
+    "version": "1.1.1",
+    "transparent": true,
+    "isBaseLayer": true,
+    "isNeverVisibleInTree": false,
+    "gfiAttributes": "ignore",
+    "legend": [
+      "https://map-final.rlp-umwelt.de/kartendienste/mod_ogc/wms_getmap.php?mapfile=vbs&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=vbs_flaechenhafte_biotope_1&format=image/png&STYLE=default"
+    ]
+  },
+  {
+    "id": "vbs_flaechenhafte_biotope_2",
+    "name": "VBS Flächenhafte Biotope 2",
+    "typ": "WMS",
+    "url": "http://3.120.130.2:8080/geoserver/Kusel/wms",
+    "layers": "vbs_flaechenhafte_biotope_2",
+    "format": "image/png",
+    "version": "1.1.1",
+    "transparent": true,
+    "isBaseLayer": true,
+    "isNeverVisibleInTree": false,
+    "gfiAttributes": "ignore",
+    "legend": [
+      "https://map-final.rlp-umwelt.de/kartendienste/mod_ogc/wms_getmap.php?mapfile=vbs&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=vbs_flaechenhafte_biotope_2&format=image/png&STYLE=default"
+    ]
+  },
+  {
+    "id": "vbs_flaechenhafte_ziele",
+    "name": "VBS Flächenhafte Ziele",
+    "typ": "WMS",
+    "url": "http://3.120.130.2:8080/geoserver/Kusel/wms",
+    "layers": "vbs_flaechenhafte_ziele",
+    "format": "image/png",
+    "version": "1.1.1",
+    "transparent": true,
+    "isBaseLayer": true,
+    "isNeverVisibleInTree": false,
+    "gfiAttributes": "ignore",
+    "legend": [
+      "https://map-final.rlp-umwelt.de/kartendienste/mod_ogc/wms_getmap.php?mapfile=vbs&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=vbs_flaechenhafte_ziele&format=image/png&STYLE=default"
+    ]
+  }
 ]

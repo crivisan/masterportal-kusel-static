@@ -1,5 +1,6 @@
 {
   "portalConfig": {
+    "treeType": "custom",
     "map": {
       "baselayerSwitcher": {
         "active": true,
@@ -21,9 +22,7 @@
           "newTabFromFrame": true
         },
         "tiltView": true,
-        "startModule": {
-
-        },
+        "startModule": {},
         "totalView": true,
         "button3d": true,
         "expandable": {
@@ -237,14 +236,55 @@
           "name": "Orthophoto RLP (DOP20)",
           "typ": "WMS",
           "visibility": false,
-          "showInLayerTree": true
+          "showInLayerTree": false
         },
         {
           "id": "topplus_wmts",
           "name": "TopPlusOpen (WMTS)",
           "typ": "WMTS",
           "visibility": false,
-          "showInLayerTree": true
+          "showInLayerTree": false
+        },
+        {
+          "id": "geol_bodenart",
+          "name": "Bodenflächendaten - Bodenart",
+          "typ": "WMS",
+          "visibility": false,
+          "showInLayerTree": false
+        },
+        {
+          "id": "geol_ackerzahl",
+          "name": "Bodenflächendaten - Ackerzahl",
+          "typ": "WMS",
+          "visibility": false,
+          "showInLayerTree": false
+        },
+        {
+          "id": "lep_iv_landesweit_bedeutsamer_bereich",
+          "name": "LEP IV Landesweit Bedeutsamer Bereich",
+          "visibility": false,
+          "showInLayerTree": false
+        },
+        {
+          "id": "vbs_flaechenhafte_biotope_2",
+          "name": "VBS Flächenhafte Biotope 2",
+          "typ": "WMS",
+          "visibility": false,
+          "showInLayerTree": false
+        },
+        {
+          "id": "vbs_flaechenhafte_biotope_1",
+          "name": "VBS Flächenhafte Biotope 1",
+          "typ": "WMS",
+          "visibility": false,
+          "showInLayerTree": false
+        },
+        {
+          "id": "vbs_flaechenhafte_ziele",
+          "name": "VBS Flächenhafte Ziele",
+          "typ": "WMS",
+          "visibility": false,
+          "showInLayerTree": false
         }
       ]
     },
@@ -262,13 +302,18 @@
           "visibility": true,
           "showInLayerTree": true
         },
-                {
+        {
           "id": "geologie",
-          "name": "GÜK300: Geologische Übersichtskarte",
+          "name": "Geologische Übersichtskarte (GÜK300)",
+          "visibility": false,
+          "showInLayerTree": false
+        },
+        {
+          "id": "fnp_vg_og",
+          "name": "Flächennutzungspläne VG OG",
           "visibility": false,
           "showInLayerTree": true
         },
-
         {
           "id": "rp_Flurstueck",
           "name": "Flurstücke (ab 1:5000)",
@@ -281,33 +326,6 @@
           }
         },
         {
-          "id": "fnp_vg_og",
-          "name": "Flächennutzungspläne VG OG",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        {
-          "id": "lep_iv_landesweit_bedeutsamer_bereich",
-          "name": "LEP IV landesweit bedeutsamer Bereich",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        
-        {
-          "id": "geol_bodenart",
-          "name": "Bodenart",
-          "typ": "WMS",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-        {
-          "id": "geol_ackerzahl",
-          "name": "Ackerzahl",
-          "typ": "WMS",
-          "visibility": false,
-          "showInLayerTree": true
-        },
-              {
           "id": "kusel_rivers",
           "name": "Landkreis Kusel Flussnetz",
           "visibility": true,
@@ -333,7 +351,6 @@
           "visibility": true,
           "showInLayerTree": true
         },
-  
         {
           "id": "kusel_boundary",
           "name": "Landkreis Kusel Verwaltungsgrenze",

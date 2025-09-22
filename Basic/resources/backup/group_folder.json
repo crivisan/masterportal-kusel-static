@@ -1,0 +1,27 @@
+{
+    "id": [
+        "vbs_flaechenhafte_biotope_1",
+        "vbs_flaechenhafte_biotope_2"
+    ],
+    "type": "folder",
+    "typ": "GROUP",
+    "name": " VBS - Planung vernetzter Biotopsysteme",
+    "visibility": false,
+    "showInLayerTree": true,
+    "children": [
+        {
+            "id": "vbs_flaechenhafte_biotope_2",
+            "name": "VBS Flächenhafte Biotope 2",
+            "typ": "WMS",
+            "visibility": true,
+            "showInLayerTree": true
+        },
+        {
+            "id": "vbs_flaechenhafte_biotope_1",
+            "name": "VBS Flächenhafte Biotope 1",
+            "typ": "WMS",
+            "visibility": false,
+            "showInLayerTree": true
+        }
+    ]
+}
