@@ -244,47 +244,6 @@
           "typ": "WMTS",
           "visibility": false,
           "showInLayerTree": false
-        },
-        {
-          "id": "geol_bodenart",
-          "name": "Bodenflächendaten - Bodenart",
-          "typ": "WMS",
-          "visibility": false,
-          "showInLayerTree": false
-        },
-        {
-          "id": "geol_ackerzahl",
-          "name": "Bodenflächendaten - Ackerzahl",
-          "typ": "WMS",
-          "visibility": false,
-          "showInLayerTree": false
-        },
-        {
-          "id": "lep_iv_landesweit_bedeutsamer_bereich",
-          "name": "LEP IV Landesweit Bedeutsamer Bereich",
-          "visibility": false,
-          "showInLayerTree": false
-        },
-        {
-          "id": "vbs_flaechenhafte_biotope_2",
-          "name": "VBS Flächenhafte Biotope 2",
-          "typ": "WMS",
-          "visibility": false,
-          "showInLayerTree": false
-        },
-        {
-          "id": "vbs_flaechenhafte_biotope_1",
-          "name": "VBS Flächenhafte Biotope 1",
-          "typ": "WMS",
-          "visibility": false,
-          "showInLayerTree": false
-        },
-        {
-          "id": "vbs_flaechenhafte_ziele",
-          "name": "VBS Flächenhafte Ziele",
-          "typ": "WMS",
-          "visibility": false,
-          "showInLayerTree": false
         }
       ]
     },
@@ -307,6 +266,47 @@
           "name": "Geologische Übersichtskarte (GÜK300)",
           "visibility": false,
           "showInLayerTree": false
+        },
+        {
+          "id": "geol_bodenart",
+          "name": "Bodenflächendaten - Bodenart",
+          "typ": "WMS",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "geol_ackerzahl",
+          "name": "Bodenflächendaten - Ackerzahl",
+          "typ": "WMS",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "vbs_flaechenhafte_ziele",
+          "name": "VBS Flächenhafte Ziele",
+          "typ": "WMS",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "vbs_flaechenhafte_biotope_2",
+          "name": "VBS Flächenhafte Biotope 2",
+          "typ": "WMS",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "vbs_flaechenhafte_biotope_1",
+          "name": "VBS Flächenhafte Biotope 1",
+          "typ": "WMS",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "lep_iv_landesweit_bedeutsamer_bereich",
+          "name": "LEP IV Landesweit Bedeutsamer Bereich",
+          "visibility": false,
+          "showInLayerTree": true
         },
         {
           "id": "fnp_vg_og",

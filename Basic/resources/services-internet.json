@@ -309,7 +309,7 @@
     "isNeverVisibleInTree": false,
     "gfiAttributes": "ignore",
     "legend": [
-      "https://map-final.rlp-umwelt.de/kartendienste/mod_ogc/wms_getmap.php?mapfile=vbs&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=vbs_flaechenhafte_biotope_1&format=image/png&STYLE=default"
+      "http://3.120.130.2:8080/geoserver/www/legends/VBS/vbs_flaechenhafte_biotope_1.png"
     ]
   },
   {
@@ -325,7 +325,7 @@
     "isNeverVisibleInTree": false,
     "gfiAttributes": "ignore",
     "legend": [
-      "https://map-final.rlp-umwelt.de/kartendienste/mod_ogc/wms_getmap.php?mapfile=vbs&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=vbs_flaechenhafte_biotope_2&format=image/png&STYLE=default"
+      "http://3.120.130.2:8080/geoserver/www/legends/VBS/vbs_flaechenhafte_biotope_2.png"
     ]
   },
   {
@@ -340,8 +340,8 @@
     "isBaseLayer": true,
     "isNeverVisibleInTree": false,
     "gfiAttributes": "ignore",
-    "legend": [
-      "https://map-final.rlp-umwelt.de/kartendienste/mod_ogc/wms_getmap.php?mapfile=vbs&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=vbs_flaechenhafte_ziele&format=image/png&STYLE=default"
+    "legendURL": [
+      "http://3.120.130.2:8080/geoserver/www/legends/VBS/vbs_flaechenhafte_ziele.png"
     ]
   }
 ]
