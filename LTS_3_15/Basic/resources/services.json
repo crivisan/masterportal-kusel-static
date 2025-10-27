@@ -1,0 +1,347 @@
+[
+  {
+    "id": "1",
+    "name": "3d buildings",
+    "url": "../tiles/3d_model",
+    "typ": "TileSet3D",
+    "gfiAttributes": "showAll",
+    "layerAttribution": "nicht vorhanden",
+    "legend": false,
+    "transparent": true,
+    "cesium3DTilesetOptions": {
+      "maximumScreenSpaceError": 6
+    },
+    "urlIsVisible": true
+  },
+  {
+    "id": "3",
+    "name": "3d Terrain Merged",
+    "legend": false,
+    "transparent": true,
+    "typ": "Terrain3D",
+    "url": "../tiles/dgm1_terrain_all",
+    "gfiAttributes": "ignore"
+  },
+  {
+    "id": "topplus_wmts",
+    "name": "TopPlusOpen",
+    "capabilitiesUrl": "https://sgx.geodatenzentrum.de/wmts_topplus_open/1.0.0/WMTSCapabilities.xml",
+    "optionsFromCapabilities": true,
+    "urls": [
+      "https://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web/{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"
+    ],
+    "typ": "WMTS",
+    "layers": "web_grau",
+    "format": "image/png",
+    "version": "1.0.0",
+    "origin": [
+      -3803165.98427,
+      8805908.08285
+    ],
+    "isBaseLayer": true,
+    "style": "default",
+    "transparent": false,
+    "tileSize": "256",
+    "minScale": "0",
+    "maxScale": "9999999999",
+    "tileMatrixSet": "WEBMERCATOR",
+    "coordinateSystem": "EPSG:3857",
+    "gfiAttributes": "ignore",
+    "legend": false,
+    "requestEncoding": "REST",
+    "resLength": "13",
+    "isNeverVisibleInTree": false,
+    "datasets": [
+      {
+        "md_id": "A1C4E929-3EC9-4758-9677-DB4970D226AB",
+        "csw_url": " https://gdk.gdi-de.org/gdi-de/srv/ger/csw?",
+        "show_doc_url": "https://gdk.gdi-de.org/gdi-de/srv/ger/catalog.search#/metadata/"
+      }
+    ]
+  },
+  {
+    "id": "kusel_boundary",
+    "name": "Landkreis Kusel Verwaltungsgrenze",
+    "typ": "WMS",
+    "url": "http://3.120.130.2:8080/geoserver/Kusel/wms",
+    "layers": "LK-KUS-Border",
+    "format": "image/png",
+    "version": "1.1.0",
+    "transparent": true,
+    "gfiAttributes": "ignore"
+  },
+  {
+    "id": "vg_ka",
+    "name": "VG Kusel-Altenglan",
+    "typ": "WMS",
+    "url": "http://3.120.130.2:8080/geoserver/Kusel/wms",
+    "layers": "vg_ka_enriched",
+    "format": "image/png",
+    "version": "1.1.0",
+    "transparent": true,
+    "gfiAttributes": {
+      "vg_name": "Verbandsgemeinde",
+      "GEN": "Gemeinde",
+      "flaeche_ha": "Fläche (ha)",
+      "flaeche_qm": "Fläche (qm)",
+      "umfang_m": "Umfang (m)"
+    }
+  },
+  {
+    "id": "vg_og",
+    "name": "VG Oberes Glantal",
+    "typ": "WMS",
+    "url": "http://3.120.130.2:8080/geoserver/Kusel/wms",
+    "layers": "vg_og_enriched",
+    "format": "image/png",
+    "version": "1.1.0",
+    "transparent": true,
+    "gfiAttributes": {
+      "vg_name": "Verbandsgemeinde",
+      "GEN": "Gemeinde",
+      "flaeche_ha": "Fläche (ha)",
+      "flaeche_qm": "Fläche (qm)",
+      "umfang_m": "Umfang (m)"
+    }
+  },
+  {
+    "id": "vg_lw",
+    "name": "VG Lauterecken-Wolfstein",
+    "typ": "WMS",
+    "url": "http://3.120.130.2:8080/geoserver/Kusel/wms",
+    "layers": "vg_lw_enriched",
+    "format": "image/png",
+    "version": "1.1.0",
+    "transparent": true,
+    "gfiAttributes": {
+      "vg_name": "Verbandsgemeinde",
+      "GEN": "Gemeinde",
+      "flaeche_ha": "Fläche (ha)",
+      "flaeche_qm": "Fläche (qm)",
+      "umfang_m": "Umfang (m)"
+    }
+  },
+  {
+    "id": "kusel_rivers",
+    "name": "Landkreis Kusel Flussnetz",
+    "typ": "WFS",
+    "url": "http://3.120.130.2:8080/geoserver/Kusel/wfs",
+    "featureType": "LK-KUS-Rivers",
+    "outputFormat": "image/png",
+    "version": "1.1.0",
+    "gfiTheme": "default",
+    "layerAttribution": "nicht vorhanden",
+    "legendURL": "http://3.120.130.2:8080/geoserver/Kusel/ows?service=WMS&version=1.3.0&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=LK-KUS-Rivers",
+    "hitTolerance": "",
+    "datasets": [],
+    "urlIsVisible": true,
+    "gfiAttributes": {
+      "GEWAESSERNAME": "Gewässername",
+      "LAENGE": "Länge"
+    }
+  },
+  {
+    "id": "fnp_vg_og",
+    "name": "Flächennutzungspläne VG OG",
+    "typ": "WMS",
+    "url": "http://3.120.130.2:8080/geoserver/Kusel/wms",
+    "layers": "fnp_vg_og_georeferenced_cubic44_clipped_alpha",
+    "format": "image/png",
+    "version": "1.1.0",
+    "transparent": true,
+    "isSecured": true,
+    "authenticationMethod": "prompt",
+    "isBaseLayer": true,
+    "isNeverVisibleInTree": false,
+    "gfiAttributes": "ignore",
+    "legend": [
+      "http://3.120.130.2:8080/geoserver/www/legends/fnp_vg_og_legend.png"
+    ]
+  },
+  {
+    "id": "rp_Flurstueck",
+    "name": "Flurstueck",
+    "typ": "WMS",
+    "url": "https://geo5.service24.rlp.de/wms/liegenschaften_rp.fcgi?",
+    "layers": "Flurstueck",
+    "format": "image/png",
+    "version": "1.1.1",
+    "transparent": true,
+    "isBaseLayer": true,
+    "isNeverVisibleInTree": false,
+    "gfiAttributes": "ignore",
+    "legend": [
+      "https://geo5.service24.rlp.de/liegenschaften/liegenschaften_legende_flurstuecke.png"
+    ]
+  },
+  {
+    "id": "geol_ackerzahl",
+    "name": "Bodenflächendaten - Ackerzahl",
+    "typ": "WMS",
+    "url": "https://mapserver.lgb-rlp.de/cgi-bin/mc_bfd5?",
+    "layers": "Ackerzahl",
+    "format": "image/png",
+    "version": "1.3.0",
+    "transparent": true,
+    "isBaseLayer": true,
+    "isNeverVisibleInTree": false,
+    "gfiAttributes": "ignore",
+    "legend": [
+      "https://mapserver.lgb-rlp.de/cgi-bin/mc_bfd5?version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=ackerzahl&format=image/png&STYLE=default"
+    ]
+  },
+  {
+    "id": "geol_bodenart",
+    "name": "Bodenflächendaten - Bodenart",
+    "typ": "WMS",
+    "url": "https://mapserver.lgb-rlp.de/cgi-bin/mc_bfd5?",
+    "layers": "Bodenart",
+    "format": "image/png",
+    "version": "1.3.0",
+    "transparent": true,
+    "isBaseLayer": true,
+    "isNeverVisibleInTree": false,
+    "gfiAttributes": "ignore",
+    "legend": [
+      "https://mapserver.lgb-rlp.de/cgi-bin/mc_bfd5?version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=bodenart&format=image/png&STYLE=default"
+    ]
+  },
+  {
+    "id": "naturschutzgebiete",
+    "name": "Naturschutzgebiete RLP",
+    "typ": "WMS",
+    "url": "https://geodaten.naturschutz.rlp.de/kartendienste_naturschutz/mod_ogc/wms_getmap.php?mapfile=naturschutzgebiet",
+    "layers": "naturschutzgebiet",
+    "format": "image/png",
+    "version": "1.1.1",
+    "transparent": true,
+    "isBaseLayer": true,
+    "isNeverVisibleInTree": false,
+    "gfiAttributes": "ignore",
+    "legend": [
+      "https://geodaten.naturschutz.rlp.de/kartendienste_naturschutz/mod_ogc/wms_getmap.php?mapfile=naturschutzgebiet&version=1.1.1&service=WMS&request=GetLegendGraphic&layer=naturschutzgebiet&format=image/png&STYLE=default"
+    ]
+  },
+  {
+    "id": "dop20_rp",
+    "name": "RLP DOP20 Orthophotos",
+    "typ": "WMS",
+    "url": "http://3.120.130.2/dop20",
+    "layers": "rp_dop20",
+    "format": "image/png",
+    "version": "1.1.1",
+    "transparent": false,
+    "isBaseLayer": true,
+    "urlIsVisible": true,
+    "legend": false,
+    "isNeverVisibleInTree": false,
+    "gfiAttributes": "ignore"
+  },
+  {
+    "id": "geologie",
+    "isNeverVisibleInTree": false,
+    "name": "Geologische Übersichtskarte (GÜK300)",
+    "url": "http://3.120.130.2/guek300",
+    "capabilitiesUrl": "http://3.120.130.2/guek300?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetCapabilities",
+    "typ": "WFS",
+    "featureType": "ms:geologische_uebersichtskarte300",
+    "outputFormat": "application/gml+xml; version=3.2",
+    "version": "2.0.0",
+    "featureNS": "http://mapserver.gis.umn.edu/mapserver",
+    "geometryName": "msGeometry",
+    "fitCapabilitiesExtent": true,
+    "gfiAttributes": {
+      "BEMERKUNG": "Bemerkung",
+      "STRATIGRAFIE": "Stratigrafie",
+      "PETROGRAFIE": "Petrografie",
+      "FORMATION": "Formation",
+      "FAZIES": "Fazies",
+      "GRUPPE": "Gruppe",
+      "EPOCHE": "Epoche",
+      "PERIODE": "Periode",
+      "AERA": "Ära"
+    },
+    "wfsFilter": null,
+    "legend": true,
+    "isSecured": false,
+    "propertyNames": [
+      "OBJECTID",
+      "ID_LEG",
+      "LABEL",
+      "BEMERKUNG",
+      "STRATIGRAFIE",
+      "PETROGRAFIE",
+      "FORMATION",
+      "FAZIES",
+      "GRUPPE",
+      "EPOCHE",
+      "PERIODE",
+      "AERA",
+      "msGeometry"
+    ]
+  },
+  {
+    "id": "lep_iv_landesweit_bedeutsamer_bereich",
+    "name": "LEP IV Landesweit Bedeutsamer Bereich",
+    "typ": "WMS",
+    "url": "http://3.120.130.2/lepiv",
+    "layers": "lbbf",
+    "format": "image/png",
+    "version": "1.1.1",
+    "transparent": true,
+    "isBaseLayer": true,
+    "isNeverVisibleInTree": false,
+    "gfiAttributes": "ignore",
+    "legend": [
+      "http://83.243.49.244/rauminfo/config/img/symbol/lep4_lbbf.png"
+    ]
+  },
+  {
+    "id": "vbs_flaechenhafte_biotope_1",
+    "name": "VBS Flächenhafte Biotope 1",
+    "typ": "WMS",
+    "url": "http://3.120.130.2:8080/geoserver/Kusel/wms",
+    "layers": "vbs_flaechenhafte_biotope_1",
+    "format": "image/png",
+    "version": "1.1.1",
+    "transparent": true,
+    "isBaseLayer": true,
+    "isNeverVisibleInTree": false,
+    "gfiAttributes": "ignore",
+    "legend": [
+      "http://3.120.130.2:8080/geoserver/www/legends/VBS/vbs_flaechenhafte_biotope_1.png"
+    ]
+  },
+  {
+    "id": "vbs_flaechenhafte_biotope_2",
+    "name": "VBS Flächenhafte Biotope 2",
+    "typ": "WMS",
+    "url": "http://3.120.130.2:8080/geoserver/Kusel/wms",
+    "layers": "vbs_flaechenhafte_biotope_2",
+    "format": "image/png",
+    "version": "1.1.1",
+    "transparent": true,
+    "isBaseLayer": true,
+    "isNeverVisibleInTree": false,
+    "gfiAttributes": "ignore",
+    "legend": [
+      "http://3.120.130.2:8080/geoserver/www/legends/VBS/vbs_flaechenhafte_biotope_2.png"
+    ]
+  },
+  {
+    "id": "vbs_flaechenhafte_ziele",
+    "name": "VBS Flächenhafte Ziele",
+    "typ": "WMS",
+    "url": "http://3.120.130.2:8080/geoserver/Kusel/wms",
+    "layers": "vbs_flaechenhafte_ziele",
+    "format": "image/png",
+    "version": "1.1.1",
+    "transparent": true,
+    "isBaseLayer": true,
+    "isNeverVisibleInTree": false,
+    "gfiAttributes": "ignore",
+    "legendURL": [
+      "http://3.120.130.2:8080/geoserver/www/legends/VBS/vbs_flaechenhafte_ziele.png"
+    ]
+  }
+]

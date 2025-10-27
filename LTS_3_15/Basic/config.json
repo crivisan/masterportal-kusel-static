@@ -1,0 +1,362 @@
+{
+  "portalConfig": {
+    "map": {
+      "baselayerSwitcher": {
+        "active": true,
+        "singleBaseLayer": true,
+        "activatedExpandable": false
+      },
+      "controls": {
+        "rotation": {
+          "showResetRotationAlways": true,
+          "showResetRotation": true,
+          "rotationIcons": true,
+          "moveDistance": 2500,
+          "compass2d": true
+        },
+        "zoom": true,
+        "fullScreen": {
+          "iconArrow": "arrows-fullscreen",
+          "iconExit": "fullscreen-exit",
+          "newTabFromFrame": true
+        },
+        "tiltView": true,
+        "startModule": {},
+        "totalView": true,
+        "button3d": true,
+        "expandable": {
+          "backForward": true,
+          "orientation": {
+            "zoomMode": "once",
+            "poiDistances": [
+              500,
+              1000,
+              2000
+            ]
+          },
+          "freeze": true,
+          "fullScreen": true
+        }
+      },
+      "getFeatureInfo": {
+        "coloredHighlighting3D": {
+          "enabled": true,
+          "color": "PURPLE"
+        },
+        "highlightVectorRules": {
+          "fill": {
+            "color": [
+              215,
+              102,
+              41,
+              0.9
+            ]
+          },
+          "image": {
+            "scale": 1.5
+          },
+          "stroke": {
+            "width": 4,
+            "color": [
+              215,
+              102,
+              41,
+              0.9
+            ]
+          },
+          "text": {
+            "scale": 2
+          }
+        },
+        "hideMapMarkerOnVectorHighlight": false
+      },
+      "layerPills": {
+        "active": true
+      },
+      "mapView": {
+        "backgroundImage": "./resources/img/backgroundCanvas.jpeg",
+        "startCenter": [
+          388960,
+          5490750
+        ],
+        "extent": [
+          372101.25,
+          5468425.09,
+          409999.99,
+          5504357.84
+        ],
+        "startZoomLevel": 1
+      }
+    },
+    "portalFooter": {
+      "urls": [
+        {
+          "bezeichnung": "common:modules.portalFooter.designation",
+          "url": "https://www.landkreis-kusel.de/",
+          "alias": "Kreisverwaltung Kusel",
+          "alias_mobil": "KV-KUS"
+        }
+      ]
+    },
+    "tree": {
+      "addLayerButton": {
+        "active": true
+      },
+      "highlightedFeatures": {
+        "active": true
+      }
+    },
+    "mainMenu": {
+      "expanded": true,
+      "title": {
+        "text": "<span style='font-size:1.0em;'>Landkreis Kusel</span><br><span style='font-size:0.70em;'>GEOPORTAL</span>",
+        "logo": "./resources/img/Landkreis-Kusel-Logo-1.png",
+        "link": "https://www.landkreis-kusel.de/",
+        "toolTip": "Geoportal"
+      },
+      "searchBar": {
+        "placeholder": "common:modules.searchBar.placeholder.addressTopic",
+        "searchInterfaces": [
+          {
+            "type": "komootPhoton",
+            "minChars": 3,
+            "serviceId": "11",
+            "limit": 10,
+            "lang": "de",
+            "lat": 49.55,
+            "lon": 7.4,
+            "bbox": "7.1,49.3,7.7,49.7"
+          },
+          {
+            "type": "visibleVector",
+            "resultEvents": {
+              "onClick": [
+                "openGetFeatureInfo",
+                "setMarker",
+                "zoomToResult"
+              ],
+              "onHover": [
+                "setMarker"
+              ],
+              "buttons": [
+                "startRouting"
+              ]
+            }
+          },
+          {
+            "type": "topicTree",
+            "hitTemplate": "layer"
+          }
+        ]
+      },
+      "sections": [
+        [
+          {
+            "type": "fileImport"
+          },
+          {
+            "type": "scaleSwitcher"
+          },
+          {
+            "type": "shareView"
+          },
+          {
+            "type": "language"
+          },
+          {
+            "type": "contact",
+            "serviceId": "80001",
+            "includeSystemInfo": true,
+            "from": [
+              {
+                "email": "cristhian.sanchez@kv-kus.de",
+                "name": "LK-KUS GeoportalHilfe"
+              }
+            ],
+            "to": [
+              {
+                "email": "cristhian.sanchez@kv-kus.de",
+                "name": "LK-KUS GeoportalHilfe"
+              }
+            ]
+          },
+          {
+            "type": "about",
+            "cswUrl": "Demo",
+            "metaUrl": "DEMO",
+            "metaId": "DEMO"
+          }
+        ]
+      ]
+    },
+    "secondaryMenu": {
+      "expanded": true,
+      "sections": [
+        [
+          {
+            "type": "legend"
+          },
+          {
+            "type": "measure"
+          },
+          {
+            "type": "draw_old",
+            "enableAttributesSelector": true,
+            "addIconsOfActiveLayers": true
+          },
+          {
+            "type": "coordToolkit",
+            "heightLayerId": "19173",
+            "heightElementName": "value_0",
+            "heightValueWater": "-20",
+            "heightValueBuilding": "200",
+            "zoomLevel": 5
+          },
+          {
+            "type": "bufferAnalysis"
+          },
+          {
+            "type": "layerClusterToggler",
+            "layerIdList": [
+              "dop20_rp",
+              "geol_bodenart",
+              "geol_ackerzahl"
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  "layerConfig": {
+    "baselayer": {
+      "elements": [
+        {
+          "id": "dop20_rp",
+          "name": "Orthophoto RLP (DOP20)",
+          "typ": "WMS",
+          "visibility": false,
+          "showInLayerTree": false
+        },
+        {
+          "id": "topplus_wmts",
+          "name": "TopPlusOpen (WMTS)",
+          "typ": "WMTS",
+          "visibility": true,
+          "showInLayerTree": false
+        }
+      ]
+    },
+    "subjectlayer": {
+      "elements": [
+        {
+          "id": "1",
+          "name": "3D Gebäude Stadt Kusel",
+          "visiblity": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "3",
+          "name": "3D Geländeoberfläche",
+          "visibility": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "geologie",
+          "name": "Geologische Übersichtskarte (GÜK300)",
+          "visibility": false,
+          "showInLayerTree": false
+        },
+        {
+          "id": "geol_bodenart",
+          "name": "Bodenflächendaten - Bodenart",
+          "typ": "WMS",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "geol_ackerzahl",
+          "name": "Bodenflächendaten - Ackerzahl",
+          "typ": "WMS",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "vbs_flaechenhafte_ziele",
+          "name": "VBS Flächenhafte Ziele",
+          "typ": "WMS",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "vbs_flaechenhafte_biotope_2",
+          "name": "VBS Flächenhafte Biotope 2",
+          "typ": "WMS",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "vbs_flaechenhafte_biotope_1",
+          "name": "VBS Flächenhafte Biotope 1",
+          "typ": "WMS",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "lep_iv_landesweit_bedeutsamer_bereich",
+          "name": "LEP IV Landesweit Bedeutsamer Bereich",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "fnp_vg_og",
+          "name": "Flächennutzungspläne VG OG",
+          "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "rp_Flurstueck",
+          "name": "Flurstücke (ab 1:5000)",
+          "visibility": false,
+          "showInLayerTree": true,
+          "preview": {
+            "zoomLevel": 16,
+            "center": "388960,5490750",
+            "radius": 100
+          }
+        },
+        {
+          "id": "kusel_rivers",
+          "name": "Landkreis Kusel Flussnetz",
+          "visibility": true,
+          "showInLayerTree": true,
+          "minScale": "500",
+          "maxScale": "40000"
+        },
+        {
+          "id": "vg_ka",
+          "name": "VG Kusel-Altenglan",
+          "visibility": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "vg_lw",
+          "name": "VG Lauterecken-Wolfstein",
+          "visibility": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "vg_og",
+          "name": "VG Oberes Glantal",
+          "visibility": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "kusel_boundary",
+          "name": "Landkreis Kusel Verwaltungsgrenze",
+          "visibility": true,
+          "showInLayerTree": true
+        }
+      ]
+    }
+  }
+}
